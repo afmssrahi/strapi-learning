@@ -1,6 +1,8 @@
-## Create a 'database.js' file in confiq file
+## Create a 'database.js' file in config file
 
 - database file look like: -
+
+```
   module.exports = ({ env }) => ({
   connection: {
   client: "postgres",
@@ -14,3 +16,4 @@
   },
   },
   });
+```
